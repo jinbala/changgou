@@ -7,6 +7,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @EnableEurekaClient
+//开启通用Mapper的dao包扫描
 @MapperScan(basePackages = {"com.changgou.goods.dao"})
 public class GoodsApplication {
     public static void main(String[] args) {
